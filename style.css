@@ -1,0 +1,112 @@
+body {
+    text-align: center;
+    background: url(images/img4.jpg) center center fixed;
+    background-size: cover;
+}
+
+#header {
+    background: linear-gradient(white, rgba(67, 169,228, 0.2));
+        background: -webkit-linear-gradient(white, rgba(67, 169,228, 0.2));
+        background: -moz-linear-gradient(white, rgba(67, 169,228, 0.2));
+        background: -o-linear-gradient(white, rgba(67, 169,228, 0.2));
+        background: -ms-linear-gradient(white, rgba(67, 169,228, 0.2));
+    height: 80px;
+    width: 500px;
+    margin: 10px auto;
+    font-size: 3em;
+    color: greenyellow;
+    line-height: 80px;
+}
+
+.inputContainer {
+    width: 200px;
+    margin: 0 auto;
+}
+
+.input {
+    height: 30px;
+    font-size: 1.3em;
+}
+
+#slider {
+    margin: 10px auto;
+}
+
+#circle {
+    height: 3px;
+    width: 3px;
+    border-radius: 50%;
+    background: black;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+     -webkit-transform: translate(-50%,-50%);
+     -moz-transform: translate(-50%,-50%);
+     -o-transform: translate(-50%,-50%);
+     -ms-transform: translate(-50%,-50%);
+}
+
+#thicknessInput {
+    position: relative;
+}
+
+#container {
+    width: 700px;
+    height: 600px;
+    border: 1px solid rgba(122,174,229, 0.5);
+    margin: 10px auto;
+}
+
+#paint {
+    background-color: white;
+    cursor: crosshair;
+}
+
+.inputContainer2 {
+    width: 599px;
+    margin: 0 auto;
+}
+
+.input2 {
+    width: 199px; 
+    color: greenyellow;
+    font-size: 1.3em;
+    float: left;
+}
+
+.button {
+    background: white;
+    height: 50px;
+    padding: 10px;
+    border-radius: 3px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0px 4px rgba(0,0,0, 0.1);
+    -moz-box-shadow: 0px 4px rgba(0,0,0, 0.1);
+    -webkit-box-shadow: 0px 4px rgba(0,0,0, 0.1);
+    position: relative;
+}
+
+.button:hover {
+    color: white;
+    background: greenyellow;
+}
+
+.button:active {
+    top: 4px;
+}
+
+.eraseMode {
+    background-color: red;
+    color: white;
+}
+
+
+
+
+
+
+
+
