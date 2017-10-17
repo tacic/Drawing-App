@@ -4,7 +4,7 @@ Basic drawing app
 
 You can only chose color and thickness of a pencil for drawing.
 
-It fully works in Chrome, in Firefox it doesn't change color and does not work at all in IE.
+It fully works in Chrome, in Firefox it doesn't change color and does not work at all in IE - you only see picture but can't draw anything.
 
 I will add shape drawing tools, fill bucket or similar stuff from paint... I just need time :)
 
